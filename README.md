@@ -1,23 +1,27 @@
 # JjeopJjeop Recipe
 
 > This is a community commerce website where you can share your own recipes and purchase ingredients.<br>
-<br>
-You can upload your own recipes and share them with other members.<br>
-You can purchase the ingredients used in the recipes.<br>
+
+You can upload your own recipes, share them with other members, and purchase the ingredients used in the recipes.<br>
 For seller members, you can easily manage your products and check sales status.
-<br>
-<br>
+
 
 ## Built With
-
 ```
 Backend: Java 11, Spring boot 2.7.2, Gradle, MyBatis, thymeleaf
 DB : Oracle 11.2
 Front : HTML5, CSS, JavaScript, JQuery, Bootstrap, Ajax
 Tool : IntelliJ, VS Code, GitHub
 ```
-<br>
-<br>
+
+## Contents
+- [Requirements](#requirements)
+- [ERD (Entity Relationship Diagram)](#erd-entity-relationship-diagram)
+- [WBS (Work Breakdown Structure)](#wbs-work-breakdown-structure)
+- [Introduction to Features](#introduction-to-features)
+  - [Member](#member)
+  - [My Page](#my-page)
+
 
 ## Requirements
 Member
@@ -63,49 +67,49 @@ Community Board
 
 ## ERD (Entity Relationship Diagram)
 ![파이널 프로젝트](https://user-images.githubusercontent.com/105467839/188069078-1b7e0755-9fef-4309-9451-e626806ac409.png)
-
-
 <br>
 <br>
 
 ## WBS (Work Breakdown Structure)
 ![image](https://user-images.githubusercontent.com/96387509/194100473-5a76aad5-233c-4465-8c0e-01ac86f52a4a.png)
-
-<br>
-<br>
-
-## Group Member and Responsibility
-
-임하영(Leader)
-
-- Index page + Integrated Search
-- Community Board
-
-Minji Kim
-
-- Member
-
-이희연
-
-- Administrator
-
-백다현
-
-- Recipe
-
-서정아
-
-- Shopping
-
-
-
 <br>
 <br>
 
 ## Introduction to Features
 
 ---
+### Member
+```
+This is the registeration page.
+- Membership registration is required to use the site, including recipe writing and shopping
+- Register as a member only when entering valid information
+- Find ID and password entered during registration through the ID/password recovery process
+- Log in only when the values match what is stored in the database
+```
+- Registeration
+![signup](https://user-images.githubusercontent.com/105467839/188056426-d89996c9-98be-4069-9598-38a1ae8957d1.gif)
+- Find ID/Password
+![findId](https://user-images.githubusercontent.com/105467839/188068581-953f39fb-0cdd-4761-a251-cb702c2cf4b0.gif)
+- Login
+![login](https://user-images.githubusercontent.com/105467839/188068163-30beb130-daea-4312-80ad-d44533e21377.gif)
 
+---
+### My Page
+```
+- Modify personal information, including password, in My Page after logging in
+- View my scrap items, recipes, posts, shopping cart, and purchase history and move to the respective posts via links
+- Delete an account by entering ID and password again (Note: An actual data is not deleted, and it is managed separately.)
+```
+- Edit My Page
+![mypageEdit](https://user-images.githubusercontent.com/105467839/188057279-0b885436-df50-4fe4-9a87-68beb67ece7c.gif)
+- My Scraps, My Recipes, My Postings, My Shopping Cart, My Payment
+![myPages](https://user-images.githubusercontent.com/105467839/188058764-4e7c41c8-e393-4351-a691-5dcdd7b9d467.gif)
+- Withdraw Membership
+![myAccount](https://user-images.githubusercontent.com/105467839/188057583-10e2b73d-56a3-4342-aba8-6b9a45e43d62.gif)
+<br>
+<br>
+
+---
 ### Index page and Integration Search
 
 ```
@@ -203,38 +207,6 @@ This is the community board where users can leave free posts and recipe reviews.
 - Comments
   ![communityComment](https://user-images.githubusercontent.com/96387509/187107765-746cbcf5-39e5-4a91-b9e6-064e630ba517.gif)
 
-<br>
-<br>
-
----
-### Member
-```
-This is the registeration page.
-- Membership registration is required to use the site, including recipe writing and shopping
-- Register as a member only when entering valid information
-- Find ID and password entered during registration through the ID/password recovery process
-- Log in only when the values match what is stored in the database
-```
-- Registeration
-![signup](https://user-images.githubusercontent.com/105467839/188056426-d89996c9-98be-4069-9598-38a1ae8957d1.gif)
-- Find ID/Password
-![findId](https://user-images.githubusercontent.com/105467839/188068581-953f39fb-0cdd-4761-a251-cb702c2cf4b0.gif)
-- Login
-![login](https://user-images.githubusercontent.com/105467839/188068163-30beb130-daea-4312-80ad-d44533e21377.gif)
-
----
-### My Page
-```
-- Modify personal information, including password, in My Page after logging in
-- View my scrap items, recipes, posts, shopping cart, and purchase history and move to the respective posts via links
-- Delete an account by entering ID and password again (Note: An actual data is not deleted, and it is managed separately.)
-```
-- Edit My Page
-![mypageEdit](https://user-images.githubusercontent.com/105467839/188057279-0b885436-df50-4fe4-9a87-68beb67ece7c.gif)
-- My Scraps, My Recipes, My Postings, My Shopping Cart, My Payment
-![myPages](https://user-images.githubusercontent.com/105467839/188058764-4e7c41c8-e393-4351-a691-5dcdd7b9d467.gif)
-- Withdraw Membership
-![myAccount](https://user-images.githubusercontent.com/105467839/188057583-10e2b73d-56a3-4342-aba8-6b9a45e43d62.gif)
 <br>
 <br>
 
