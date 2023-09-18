@@ -1,5 +1,5 @@
 # JjeopJjeop Recipe
-
+![image](https://user-images.githubusercontent.com/96387509/187108033-b7a94b25-0476-4ac4-a145-4c8223e9fe3f.png)
 > This is a community commerce website where you can share your own recipes and purchase ingredients.<br>
 
 You can upload your own recipes, share them with other members, and purchase the ingredients used in the recipes.<br>
